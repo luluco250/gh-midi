@@ -4,14 +4,16 @@ Toy program that converts game controller inputs to MIDI outputs.
 
 Currently adapted for use with Guitar Hero drums and guitar, though not perfect.
 
-To compile, install Meson and run:
+# Compiling
+This project uses the Meson build system and depends on the fmt and SDL2
+libraries being available on the system.
 ```sh
 meson build
 cd build
 meson compile
 ```
 
-Usage:
+# Usage
 ```
 gh-midi <--list-ports|--list-inputs|[options] --type <drums|guitar>>
 -p --port       The MIDI port number to output to.

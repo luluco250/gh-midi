@@ -9,7 +9,6 @@ cmake = import('cmake')
 fmt = dependency('fmt', version: '>=8.1.1')
 rt_midi = dependency('rtmidi', version: '>=5.0.0')
 sdl2 = dependency('sdl2', version: '>=2.0.22')
-range_v3 = dependency('range-v3')
 
 # argparse wrapper.
 argparse_proj = cmake.subproject('argparse')
