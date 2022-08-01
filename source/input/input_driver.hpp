@@ -1,13 +1,9 @@
 #ifndef GHWT_MIDI_INPUT_INPUT_DRIVER_HPP
 #define GHWT_MIDI_INPUT_INPUT_DRIVER_HPP
 
+#include <cstddef>
 #include "../midi_manager.hpp"
 #include <span>
-#include <vector>
-
-namespace ghwt_midi {
-	class MidiManager;
-}
 
 namespace ghwt_midi::input {
 	struct InputChangeEvent {
