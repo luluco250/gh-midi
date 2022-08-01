@@ -5,7 +5,7 @@ Toy program that converts game controller inputs to MIDI outputs.
 Currently adapted for use with Guitar Hero drums and guitar, though not perfect.
 
 # Compiling
-This project uses the Meson build system and depends on the fmt and SDL2
+This project uses the Meson build system and depends on the fmt, RtMidi and SDL2
 libraries being available on the system.
 ```sh
 meson build
